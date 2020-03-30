@@ -94,11 +94,10 @@ All the dependencies are managed through POM.xml
     </dependencies>
 </project>
 
-Entire GoJek UI project zipped folder is avaialble at : https://drive.google.com/open?id=1lBuaw1kVRyB9td9FL8jtc5rHQtPOs6uJ
+Entire GoJek UI project zipped folder is avaialble at : https://drive.google.com/open?id=1YpQqZm2TPh4y3HHQAsXjXF5WhkCbRwgU
 
 Note :
-
 Pillow_Purchase.java covers 3 test cases- 
-valid purchase
-invalid purchase with invalidCard
+valid purchase with valid card
+invalid purchase with invalid Card
 invalid purchase with invalid Promo

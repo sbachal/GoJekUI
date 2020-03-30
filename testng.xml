@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="GoJekUI_Suite" annotations="JDK" parallel="false">
+    <test name="valid_purchase">
+        <classes>
+            <class name="Pillow_Purchase"/>
+        </classes>
+    </test>
+    <test name="invalid_purchase_invalidCard">
+        <classes>
+            <class name="Pillow_Purchase"/>
+        </classes>
+    </test>
+    <test name="invalid_purchase_invalidPromo">
+        <classes>
+            <class name="Pillow_Purchase"/>
+        </classes>
+    </test>
+</suite>

@@ -1,22 +1,36 @@
 # GoJekUI
 Repo for GoJek UI Assignment
+
 Following tools I have used for automation-
 
 Java Programming language-jdk1.8.0_241
+
 IDE- Intellij Idea 
+
 Selenium WebDrivers-selenium-java-3.141.59
+
 Test Execution- TestNG-7.0.0
+
 Logging- log4j-1.2.17
+
 Build Tool- apache-maven-3.1.1
+
 geckodriver-v0.26.0-win64
+
 chromedriver_win32
 
 Steps to execute automation test-
+
 Download and keep gecko drivers in src-main-resources
+
 Go to project directory from IDE terminal and run-
+
 mvn clean
+
 mvn compile
+
 mvn package
+
 mvn install -Dtest=Pillow_Purchase test
 
 All the dependencies are managed through POM.xml
@@ -97,7 +111,11 @@ All the dependencies are managed through POM.xml
 Entire GoJek UI project zipped folder is avaialble at : https://drive.google.com/open?id=1YpQqZm2TPh4y3HHQAsXjXF5WhkCbRwgU
 
 Note :
-Pillow_Purchase.java covers 3 test cases- 
+
+Pillow_Purchase.java covers 3 test cases-
+
 valid purchase with valid card
+
 invalid purchase with invalid Card
+
 invalid purchase with invalid Promo
